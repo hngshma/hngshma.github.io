@@ -70,6 +70,7 @@ p{
 }
 .container {
   height: 70vh;
+  width: 100%;
   background: rgb(210, 209, 209);
 }
 
@@ -276,7 +277,7 @@ h4 {
           width: 100%;
           position: absolute;
           height: 80vh;
-          object-fit:scale-down;
+          object-fit: scale-down;
           z-index: 1;
         }
         .single-product .row{
@@ -288,8 +289,8 @@ h4 {
         .single-product h1 {
           font-size: 26px;
           line-height: 32px;
-
         }
+        
 
       }
 
