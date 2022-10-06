@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>優彩市場</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald:700|Poppins"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section>
+      <div class="product-detail">
+      <div class = "container3">
+          <div class= "navbar">
+            <nav2>
+              <h10>株式会社優彩 2022年</h10>
+            </nav2>
+            <nav>
+              <ul id="MenuItems">
+                <li><a href="/">ホーム</a></li>
+                <li><a href="">アカウント</a></li>
+              </ul>
+            </nav>
+              <img src="img/cart.png" width="30px" height="30px">
+              <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+          </div>
+      </div>
+
+
+<!------ single product ------->
+
+<div class="small-container2 single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="img/product1.jpg" width="100%" id="ProductImg">
+
+            <div class="small-img-row">
+
+              <div class="small-img-col">
+                <img src="img/product1.jpg" width="100%" class="small-img">
+               </div>
+              <div class="small-img-col">
+               <img src="img/product1_1.jpg" width="100%" class="small-img">
+              </div>
+              <div class="small-img-col">
+                <img src="img/product1_2.jpg" width="100%" class="small-img">
+               </div>
+               <div class="small-img-col">
+                <img src="img/product1_3.jpg" width="100%" class="small-img">
+               </div>
+
+            </div>
+          </div>
+
+
+            <div class="col-2">
+                <p>商品/羽尺</p>
+                <h1>羽尺1</h1>
+                <h4>¥0</h4>
+              <input type="number" value="1">
+              <a href="" class="btn"> 追加</a>
+              <h3>商品説明</h3>
+              <p>This is the explanation of the product...............</p>
+
+            </div>
+        </div>
+
+    </div> 
+</div>
+
+
+<!---products-->
+  <div class="small-container">
+    <h2>関連アイテム</h2>
+    <div class="row">
+        <div class="col-4">
+          <a href="product-details.html">
+            <img src="img/product2.jpg">
+          </a>
+            <h4>羽尺2</h4>
+            <p>¥0</p>
+        </div>
+        <div class="col-4">
+          <a href="product-details 2.html">
+            <img src="img/product1.jpg">
+            </a>
+            <h4>羽尺1</h4>
+            <p>¥0</p>
+        </div>
+        <div class="col-4">
+          <a href="product-details.html">
+            <img src="img/product2.jpg">
+          </a>
+            <h4>羽尺2</h4>
+            <p>¥0</p>
+        </div>
+      
+  </div>
+</div>
+</div>
+
+
+
+<div class="footer">
+  <div class="row">
+    <div class="footer-col-1">
+     <ul>
+       <li><a href="https://yousai-kimono.com/">公式ウェブサイト</a></li>
+       <li>TEL:  075-241-1551</li>
+       <li>FAX:  075-211-6480</li>
+       <li>住所:  〒604-8154 京都府京都市中京区菊水鉾町567</li>
+      </ul>
+   </div>
+  </div>
+  <hr>
+  <p class="copyright">Copyright 2022 株式会社優彩 </p>
+</div>
+
+
+  
+    </section>
+
+    <!----js for toggle menu----->
+<script>
+  var MenuItems = document.getElementById("MenuItems");
+
+  MenuItems.style.maxHeight = "0px";
+
+  function menutoggle() {
+    if (MenuItems.style.maxHeight == "0px")
+    
+    {
+      MenuItems.style.maxHeight = "200px";
+    }
+    else 
+    {
+      MenuItems.style.maxHeight = "0px";
+    }
+  }
+
+</script>
+
+<!-----js for prod gallery----->
+
+  <script>
+    var ProductImg = document.getElementById("ProductImg");
+    var SmallImg = document.getElementsByClassName("small-img");
+      
+      SmallImg[0].onclick = function()
+        {
+          ProductImg.src = SmallImg[0].src;
+        }
+      SmallImg[1].onclick = function()
+        {
+          ProductImg.src = SmallImg[1].src;
+        }
+      SmallImg[2].onclick = function()
+        {
+          ProductImg.src = SmallImg[2].src;
+        }
+      SmallImg[3].onclick = function()
+        {
+          ProductImg.src = SmallImg[3].src;
+        }
+
+  </script>
+
+
+
+
+  </body>
+</html>
