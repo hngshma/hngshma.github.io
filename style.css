@@ -273,8 +273,8 @@ h4 {
           flex-basis: 60%;
         }
         .main-title {
-          font-size: 50px;
-          top: 10%;
+          font-size: 60px;
+          top: 5%;
           left: 50%;
         }
         .container {
@@ -303,8 +303,8 @@ h4 {
           width: 100%;
         }
         .col-4 img {
-          width: 150px;
-          height: 100px;
+          width: 250px;
+          height: 200px;
           object-fit: contain;
         }
 }
