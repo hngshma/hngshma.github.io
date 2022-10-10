@@ -299,13 +299,27 @@ h4 {
           width: 100%;
           background: rgb(210, 209, 209);
         }
-        .col-4{
-          width: 100%;
-   
-          margin-bottom: 50px;
-          transition: transform 0.5s;
-        } 
-        
+     
+        .row {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-left: 120px;
+        padding-right: 120px;
+      }
+
+      .col-4, .col-2 {
+        padding: 10px;
+        min-width: 50px;
+        margin-bottom: 50px;
+        transition: transform 0.5s;
+      }
+
+      .col-4 img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+      }
 
       }
 
