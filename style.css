@@ -296,6 +296,8 @@ h4 {
           height: 200vh;
           left: 50%;
           background: rgb(210, 209, 209);
+          padding-top: 100px;
+          padding-bottom: 300px;
         }
      
         .row {
