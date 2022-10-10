@@ -261,6 +261,12 @@ h4 {
       @media only screen and (max-width: 600px) {
         .row {
           text-align: center;
+            display:flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding-left: 50px;
+            padding-right: 50px;
         }
         .col-2, col-3, col-4, .container{
           flex-basis: 100%;
