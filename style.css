@@ -299,6 +299,12 @@ h4 {
           width: 100%;
           background: rgb(210, 209, 209);
         }
+        .col-4{
+          width: 100%;
+   
+          margin-bottom: 50px;
+          transition: transform 0.5s;
+        } 
         
 
       }
