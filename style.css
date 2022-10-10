@@ -261,9 +261,7 @@ h4 {
        .body{
          width: 100%;
         }
-        .row {
-          text-align: center;
-        }
+        
         .col-2, col-3, col-4, .container{
           flex-basis: 100%;
         }
@@ -295,7 +293,7 @@ h4 {
           line-height: 32px;
         }
         .small-container {
-          height: 100vh;
+          height: 300vh;
           left: 50%;
           background: rgb(210, 209, 209);
         }
@@ -306,6 +304,7 @@ h4 {
         justify-content: space-around;
         padding-left: 90px;
         padding-right: 90px;
+        text-align: center;
       }
 
       .col-4, .col-2 {
@@ -316,8 +315,8 @@ h4 {
       }
 
       .col-4 img {
-        width: 40px;
-        height: 10px;
+        width: 60px;
+        height: 50px;
         object-fit: contain;
       }
 
