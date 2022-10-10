@@ -49,6 +49,7 @@ p{
   width: 100%;
   margin: auto;
   background: rgb(210, 209, 209);
+  
 }
 .col-2 {
   flex-basis: 50%;
@@ -86,7 +87,7 @@ p{
   position: absolute;
   top: 20%;
   left: 50%;
-  font-size: 6rem;
+  font-size: clamp(2rem, 5vw, 6rem);
   transform: translate(-50%, -100%);
   color:rgb(255, 246, 246);
 }
