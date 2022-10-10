@@ -285,8 +285,8 @@ h4 {
         .container2 img {
           width: 100%;
           position: absolute;
-          width: 100px;
-          height: 90px;
+          width: 210px;
+          height: 190px;
           z-index: 1;
         }
         .single-product .row{
@@ -308,19 +308,18 @@ h4 {
           height: 200px;
           object-fit: contain;
         }
-        
-         /* footer */
-     .footer{
-      background:rgb(0, 0, 0);
-      color:rgb(255, 255, 255);
-      font-size: 15px;
-      padding: 60px 0 20px;
-    }
+       
+         .footer{
+          background:rgb(0, 0, 0);
+          color:rgb(255, 255, 255);
+          font-size: 15px;
+          padding: 60px 0 20px;
+        }
 
 
-    .footer-col-1 {
-      text-align: center;
-    }
+        .footer-col-1 {
+          text-align: center;
+        }
  
 
 
