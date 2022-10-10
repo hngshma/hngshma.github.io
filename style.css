@@ -267,7 +267,7 @@ h4 {
         }
         .main-title {
           font-size: 30px;
-          top: 10%;
+          top: 20%;
           left: 50%;
         }
         .container {
@@ -292,6 +292,7 @@ h4 {
           line-height: 32px;
 
         }
+}
 
       /* ------single prod details------*/
       .product-detail {
