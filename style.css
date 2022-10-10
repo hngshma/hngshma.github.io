@@ -274,7 +274,7 @@ h4 {
           flex-basis: 60%;
         }
         .main-title {
-          font-size: 34px;
+          font-size: 30px;
           top: 10%;
           text-align: center;
         }
@@ -285,8 +285,8 @@ h4 {
         .container2 img {
           width: 100%;
           position: absolute;
-          width: 250px;
-          height: 200px;
+          width: 190px;
+          height: 130px;
           z-index: 1;
         }
         .single-product .row{
@@ -319,9 +319,9 @@ h4 {
 
 
     .footer-col-1 {
-      min-width: 20px;
+      min-width: 200px;
       margin-bottom: 10px;
-      flex-basis: 60%;
+      flex-basis: 100%;
       text-align: left;
     }
  
