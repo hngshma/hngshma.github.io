@@ -296,7 +296,7 @@ h4 {
         }
         .small-container {
           height: 100vh;
-          width: 100%;
+          left: 50%;
           background: rgb(210, 209, 209);
         }
      
