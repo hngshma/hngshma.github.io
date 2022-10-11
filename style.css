@@ -285,8 +285,8 @@ h4 {
         .container2 img {
           width: 100%;
           position: absolute;
-          width: 250px;
-          height: 190px;
+          width: 650px;
+          height: 590px;
           z-index: 1;
         }
         .single-product .row{
@@ -304,8 +304,8 @@ h4 {
           width: 100%;
         }
         .col-4 img {
-          width: 350px;
-          height: 250px;
+          width: 300px;
+          height: 200px;
           object-fit: contain;
         }
        
@@ -313,7 +313,7 @@ h4 {
           background:rgb(0, 0, 0);
           color:rgb(255, 255, 255);
           font-size: 15px;
-          padding: 60px 0 20px;
+          padding: 50px 0 10px;
         }
 
 
