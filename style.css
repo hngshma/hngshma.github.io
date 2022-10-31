@@ -77,7 +77,7 @@ p{
 
 .container2 img {
   width: 100%;
-  position: absolute;
+  position: center;
   height: 95vh;
   object-fit:scale-down;
   z-index: 1;
