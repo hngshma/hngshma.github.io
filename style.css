@@ -284,8 +284,7 @@ h4 {
         }
         .container2 img {
           width: 100%;
-          left: 50%;
-          position: absolute;
+          position: center;
           width: 600px;
           height: 580px;
           z-index: 1;
