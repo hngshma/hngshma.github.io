@@ -283,9 +283,12 @@ h4 {
           width: 100%;
           background: rgb(210, 209, 209);
         }
+        
+
+        
         .container2 img {
-          width: 100%;
-          position: center;
+          display: flex;
+          justify-content: center;
           width: 600px;
           height: 580px;
           z-index: 1;
