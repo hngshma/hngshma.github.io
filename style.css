@@ -89,7 +89,6 @@ p{
   transform: translate(-50%, -100%);
   color:rgb(255, 246, 246);
 }
-
 .content1 {
   width: 100%;
   background: rgb(210, 209, 209);
@@ -101,7 +100,6 @@ p{
   align-items: center;
   position: absolute;
 }
-
 .text {
   position: absolute;
   top: 30%;
@@ -109,9 +107,6 @@ p{
   font-size: 5rem;
   transform: translate(-50%, -30%);
 }
-
-
-
 .small-container {
   width: 100%;
   margin: auto;
@@ -137,14 +132,12 @@ p{
   padding-left: 120px;
   padding-right: 120px;
 }
-
 .col-4, .col-2 {
   padding: 10px;
   min-width: 100px;
   margin-bottom: 50px;
   transition: transform 0.5s;
 }
-
 .col-4 img {
   width: 300px;
   height: 200px;
@@ -157,7 +150,6 @@ p{
   padding: 8px 30px;
   margin: 30px 0;
   border-radius: 30px;
-
 }
 .contact-title{
   position: absolute;
@@ -258,7 +250,7 @@ h4 {
           padding-left: 60px;
           padding-right: 60px;
         }
-        .col-2, col-3, col-4, .container{
+        .col-3, col-4, .container{
           flex-basis: 60%;
         }
         .main-title {
@@ -283,14 +275,17 @@ h4 {
         .single-product .col-2{
           padding: 20px 0;
         }
+        .col-2 {
+          flex-basis: auto;
+        }
         .single-product h1 {
-          font-size: 26px;
-          line-height: 32px;
+          font-size: 40px;
+          line-height: 90px;
         }
         .small-container {
           width: 100%;
         }
-
+    
         .col-4 img {
           width: 250px;
           height: 200px;
@@ -305,7 +300,7 @@ h4 {
         .footer-col-1 {
           text-align: center;
         }
-
+    
       }
 
       /* ------single prod details------*/
