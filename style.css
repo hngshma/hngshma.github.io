@@ -91,7 +91,7 @@ p{
 }
 .content1 {
   width: 100%;
-  background: rgb(210, 209, 209);
+  background: #FFFAF0;
   min-height: 100vh;
   z-index: 2;
   font-size: 5rem;
@@ -174,13 +174,14 @@ p{
   transform: translate(-50%, -30%);
   color:#000000; 
 }
+
 h4 {
-  color:rgb(0, 0, 0);
+  color: #000000;
   font-weight: normal;
 }
 .col-4 p {
   font-size: 14px;
-  color:rgb(0, 0, 0);
+  color:#000000;
 }
 .col-4:hover {
   transform: translateY(-25px);
@@ -189,7 +190,7 @@ h4 {
      /* footer */
      .footer{
       background:rgb(0, 0, 0);
-      color:#FFFAF0;
+      color: #FFFAF0;
       font-size: 15px;
       padding: 60px 0 20px;
     }
@@ -245,7 +246,7 @@ h4 {
 
      }
      nav ul li a{ 
-       color: white;
+       color: #FFFAF0;
      }
 
      .menu-icon{
@@ -344,7 +345,7 @@ h4 {
         padding-left: 10px;
         font-size: 20px;
         margin-right: 10px;
-        border: 1px solid #ff523b;
+        border: 1px solid #FFFAF0;
         color: black;
       }
       input:focus{
