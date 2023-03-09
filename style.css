@@ -120,7 +120,7 @@ p{
   width: 100%;
   margin: auto;
   padding-bottom: 300px;
-  background: rgb(210, 209, 209);
+  background: #FFFAF0;
 }
 .small-container3 {
   width: 100%;
@@ -128,7 +128,7 @@ p{
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 100px;
-  background: rgb(210, 209, 209);
+  background: #FFFAF0;
 }
 .row-2 {
   display:flex;
@@ -160,7 +160,7 @@ p{
 }
 .btn{
   display: inline-block;
-  background-color: rgb(255, 169, 169);
+  background-color: #FFFAF0;
   color: black;
   padding: 8px 30px;
   margin: 30px 0;
@@ -172,7 +172,7 @@ p{
   left: 20%;
   font-size: 3rem;
   transform: translate(-50%, -30%);
-  color:rgb(255, 246, 246);
+  color:#FFFAF0;
 }
 h4 {
   color:rgb(0, 0, 0);
