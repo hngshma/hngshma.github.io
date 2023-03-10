@@ -190,7 +190,6 @@ h4 {
      /* footer */
      .footer{
       background:#000000; 
-      color: #FFFAF0;
       font-size: 15px;
       padding: 60px 0 20px;
     }
@@ -201,6 +200,7 @@ h4 {
       margin-bottom: 10px;
       flex-basis: 90%;
       text-align: left;
+      color: #FFFAF0;
     }
   
 
