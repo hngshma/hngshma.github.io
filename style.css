@@ -188,7 +188,7 @@ h4 {
 }
 
      /* footer */
-     .footer{
+     .footer {
        background:#000000; 
        color: #FFFAF0;
        font-size: 15px;
@@ -197,16 +197,16 @@ h4 {
 
 
     .footer-col-1 {
+      color: #FFFAF0;
       min-width: 250px;
       margin-bottom: 10px;
       flex-basis: 90%;
       text-align: left;
-      color: #FFFAF0;
 }
   
 
     ul {
-      list-style-type:  none;
+      list-style-type: none;
       color: #FFFAF0;
 
     }
